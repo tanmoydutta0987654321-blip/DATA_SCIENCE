@@ -14,22 +14,18 @@ def letter():
 def evlen():
     x=input("Enter Your String:").upper()
     word=x.split()
-    print(word)
     for i in word:
         if len(i) %2 ==0:
             print(i)
         else:
             print("No")
-evlen()
-print("-----------------------------------------")
+# evlen()
 
-# def even_length_words():
-#     text = input("Enter your string: ")
-#     words = text.split()   # split into words by spaces
-    
-#     print("Even-length words are:")
-#     for word in words:
-#         if len(word) % 2 == 0:   # check if length is even
-#             print(word)
-
-# even_length_words()
+def uphalf():
+    x=input("Enter a String :")
+    if len(x)%2==0:
+        s=x.split()
+        print(s)
+        for i in s:
+           print(i)
+uphalf()
